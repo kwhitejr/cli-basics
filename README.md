@@ -30,10 +30,29 @@ Let's create a new "DevLeague" directory using the `mkdir` command, then use the
 Our next goal is build the base files for a new project. It will have the following structure:
 ```
 Project
+│
 ├── js
 │    └── app.js
+│
 ├── css
 │    └── styles.css
 │
 └── index.html
 ```
+
+Let's begin by running `cd ~`...
+
+Okay! You're back in your user home directory. This is a test! Navigate back to your DevLeague folder using the change directory command.
+
+> HINT: if you type fast and keep misspelling, use [TAB]-complete in order to autocomplete what you need. For example, from your desktop directory, type `cd De` and then hit tab! The terminal will either auto-complete "DevLeague" or give you all options that start with `De`, from which you can type further.
+
+#### Create Project Directory
+"cli-basics" will be the name of our new project. From the DevLeague directory, use the make directory command, `mkdir`, to create a new directory named "cli-basics". Use the list command to confirm the folder's creation, then use the change directory command to enter the folder.
+
+#### Create Multiple Folders At Once
+Now we are finally ready to create our base files! First, let's create the two folders, "js" and "css", which will store our javascript and CSS files, respectively. One cool thing about the make directory command is that you can create several folders at once by separating each folder name with a space. Run `mkdir js css` and then the list command to see both folders!
+
+#### Create Files
+In order to create a __file__ (as opposed to a directory), we use the `touch` command. `touch` works just like `mkdir`, except that it creates files instead of folders. Because it is used to create files, we must remember to include the file type via the extension.
+
+From the project's home directory (`.../cli-basics/`), use the touch command to create an `index.html` file. Use the list command to confirm that the file was created.
