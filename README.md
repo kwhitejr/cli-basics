@@ -24,7 +24,7 @@ Our first goal is create a `DevLeague` folder on your desktop using the command 
 
 As a general rule, it is a good idea to use `ls` command whenever you enter a new directory so that you can see what you're working with. From inside of your desktop directory, use `ls` to see what is on your desktop. Clean as a whistle or got a lot of junk?
 
-Spoiler: !> This is a spoiler.
+!> This is a spoiler.
 
 ## Setup
 
